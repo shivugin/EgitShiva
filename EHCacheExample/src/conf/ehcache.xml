@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ehcache>
+    <defaultCache eternal="false" maxElementsInMemory="10000"
+        overflowToDisk="false" timeToIdleSeconds="120"
+        timeToLiveSeconds="120" memoryStoreEvictionPolicy="LRU" statistics="true" />
+     <cache name="newCache" eternal="false"
+       maxElementsInMemory="1" overflowToDisk="false" 
+        timeToIdleSeconds="300" timeToLiveSeconds="600"
+        memoryStoreEvictionPolicy="LRU" statistics="true" />
+ </ehcache>
